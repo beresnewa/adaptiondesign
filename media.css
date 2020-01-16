@@ -1,0 +1,46 @@
+@media (max-width: 1200px) {
+    .all_block_3 {
+        width:960px;
+        
+    }
+
+    .container-all-rewiew{
+        justify-content: center;
+        width: 0;
+    }
+    
+    .container-rewiew{
+        padding: 10px;
+    }
+}
+
+@media (max-width:992px) {
+    .all_block_3{
+        width:720px;
+    }
+    .rewiew_photo{
+        top:0px ;
+        padding-top: 20px;
+    }
+
+    .container-all-rewiew{
+        flex-direction: column;
+        justify-content: normal;
+        padding-top: 60px;
+        margin:0 30%;
+        
+    }
+}
+
+@media (max-width:768px) {
+    all_block_3{
+            width:540px;
+    }
+}
+
+
+@media (max-width:576px) {
+    all_block_3{
+        width:100%;
+    }
+}
